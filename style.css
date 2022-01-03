@@ -1,0 +1,180 @@
+html,body{
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(124, 121, 115);
+}
+
+.banner-1{
+
+    margin-top: 120px;
+    padding: 120px;
+    height: 100%;
+    background:url("image/Wallpaper2.jpg") no-repeat center;
+    background-blend-mode: lighten;
+    background-size: cover;   
+}
+.banner-1 p{
+    font-weight: 300;
+    font-size: larger;
+    color:white;
+}
+.banner-1 h1{
+    font-size: 72px;
+    font-weight: 300;
+    margin-top: 32px;
+    font-family: sans-serif;
+    color: white;
+}
+.banner-1 h1 span:nth-child(1)
+{
+    font-weight: normal;
+    font-family:monospace;
+    
+}
+.banner-1 h1 span:nth-child(2)
+{
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner-1 a{
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border: 2px solid white;
+    text-align: center;
+    padding: 7px;
+    margin:100px 0 0 16px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+.banner-1 a:hover{
+    background:linear-gradient(90deg, #5a585c, #b7adbd);
+}
+footer{
+    padding: 0 100px 0 100px;
+    background-color: rgb(39, 34, 34);
+
+}
+footer h4{
+    margin: 80px auto;
+    font-style: italic;
+}
+footer h6{
+    margin-bottom: 40px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    font-weight: 500;
+    font-style:oblique;
+    text-decoration: none;
+    color: rgba(144, 163, 150, 0.603);
+}
+
+footer ul li a:hover{
+    color: antiquewhite;
+}
+.left-footer{
+    border-right: 0.5px solid rgb(124, 121, 115);
+}
+/* Right footer*/
+#contact-head{
+    margin: 80px 40px 20px 40px;
+    font-style: italic;
+}
+#email{
+    margin: 0 40px 20px 40px;
+    color: antiquewhite;
+}
+.right-footer h6{
+    margin: 0 40px 20px 40px;
+    font-style: italic;
+}
+.right-footer img{
+    padding: 2px;
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px rgb(124, 121, 115);
+}
+#payment-option{
+    margin: 60px auto;
+}
+#payment-option p{
+    color:rgb(124, 121, 115);
+}
+/*Copyright Section*/
+#topfooter{
+    height: 120px;
+}
+#copyright,#topfooter{
+    border-right: 00.5px solid rgb(124, 121, 115);
+}
+#copyright p,#PoweredBy p{
+    margin:100px auto 30px;
+    color: rgb(124, 121, 115);
+}
+@media only screen and (max-width: 576px) {
+    .banner-1{
+        padding: 40px;  
+    }
+    .banner-1 p{
+        padding-top: 60px;
+    }
+    .banner-1 h1{
+        font-size: 48px;
+        font-weight: 200;
+        margin-top: 16px;
+    }
+    footer{
+        padding: 20px; 
+    }
+    footer h4{
+        margin: 0;
+        font-size: 18px;  
+    }
+    footer h6{
+        margin:15px 0 10px 0;
+    }
+    .left-footer{
+        border:none;
+    }
+    /* Right footer*/
+    #contact-head{
+        margin: 40px 20px 10px 0;
+    }
+    #email{
+        margin: 0 40px 20px 40px;
+        color: antiquewhite;
+    }
+    .right-footer h6{
+        margin: 0 0 20px 40px;
+    }
+    .right-footer img{
+        padding: 2px;
+        height: 25px;
+        width: 60px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 2px 1px rgb(124, 121, 115);
+    }
+    #payment-option{
+        margin: 60px auto;
+    }
+    #payment-option p{
+        color:rgb(124, 121, 115);
+    }
+    #copyright,#topfooter{
+        padding: 30px auto;
+        border:none;
+    }
+    #copyright p,#PoweredBy p{
+        margin:10px;
+    }
+    #topfooter{
+        height: 50px;
+    }
+  }
